@@ -7,7 +7,7 @@ import os
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
     temperature=0.5,
-    google_api_key=os.getenv("GOOGLE_API_KEY")  # 👈 safer than hardcoding
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
