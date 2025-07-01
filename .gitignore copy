@@ -7,8 +7,9 @@ __pycache__/
 *.so
 
 # Environment
+.env
 .venv/
-env/
+.env/
 venv/
 ENV/
 env.bak/
